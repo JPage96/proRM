@@ -40,13 +40,78 @@ const questions = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Enter your GitHub username.');
+                    console.log('Enter your project name.');
                     return false;
                 }    
             }
         },
-    ])
-}
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Enter a description of your project.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Enter a description of your project.');
+                    return false; 
+                }
+            }
+        }, 
+        {
+            type: 'list',
+            name: 'license',
+            message: 'What kind of license does you your project need?',
+            choices: ['MIT', 'GNU'],
+            default: ["MIT"],
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Choose a license.');
+                    return false; 
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: 'What steps are required to install your project?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Enter the steps required to install your project.');
+                    return false; 
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'How do you use this app?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Enter app use instructions.');
+                    return false; 
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'test', 
+            message: 'What command should be entered to run tests?',
+            default: 'npm test'
+        },
+        {
+            type: 'input',
+            name: 'contributors',
+            message: 'What should the user need to know about adding to the repo?'
+        }
+    ]);
+};
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
