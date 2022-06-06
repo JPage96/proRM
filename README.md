@@ -1,5 +1,5 @@
 # README Generator
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   
   ## Description 
@@ -30,3 +30,9 @@
 
   ## Questions
   If you have questions about this project, reach out at Justice.Page1@pepsico.com. You can view more of my projects at https://github.com/JPage96.
+
+  ## Screenshot
+  ![screentshot](./images/node.png "screenshot")
+
+  ## Video
+  ![video functionality](./images/Screen%20Recording%202022-06-05%20at%208.28.56%20PM.mov "video")
