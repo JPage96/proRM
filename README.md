@@ -35,4 +35,4 @@
   ![screenshot](./images/node.png "screenshot")
 
   ## Video
-  View a video of the application here https://www.youtube.com/watch?v=V7eLEYmJDVY
+  View a video of the application here https://www.youtube.com/watch?v=T_PdOm1nLJ0. This video is uploaded as unlisted so only viewers with this link can see it.
