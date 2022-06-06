@@ -35,4 +35,4 @@
   ![screenshot](./images/node.png "screenshot")
 
   ## Video
- ![video](./images/readme.gif video of application)
+  View a video of the application here https://www.youtube.com/watch?v=V7eLEYmJDVY
