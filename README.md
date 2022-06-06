@@ -32,7 +32,7 @@
   If you have questions about this project, reach out at Justice.Page1@pepsico.com. You can view more of my projects at https://github.com/JPage96.
 
   ## Screenshot
-  ![screentshot](./images/node.png "screenshot")
+  ![screenshot](./images/node.png "screenshot")
 
   ## Video
- ![watch the video](https://www.youtube.com/embed/V7eLEYmJDVY)
+ ![video](./images/readme.gif video of application)
