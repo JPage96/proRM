@@ -35,4 +35,4 @@
   ![screentshot](./images/node.png "screenshot")
 
   ## Video
-  ![video functionality](./images/Screen%20Recording%202022-06-05%20at%208.28.56%20PM.mov "video")
+ ![watch the video](https://www.youtube.com/embed/V7eLEYmJDVY)
